@@ -28,9 +28,14 @@ layer = pdk.Layer(
     "ScatterplotLayer",
     data=df_filtrado,
     get_position=["LONGITUD", "LATITUD"],
-    get_radius=500,             # ajusta el tamaño
     pickable=True,
-    get_fill_color=[200, 30, 0, 160],  # rojo con algo de opacidad
+    get_fill_color=[200, 30, 0, 160],  # tu rojo semitransparente
+
+    # Usa unidades en pixeles y un radio fijo base (en px)
+    radiusUnits="pixels",
+    get_radius=8,            # 8px de base
+    radiusMinPixels=4,       # nunca menos de 4px
+    radiusMaxPixels=20       # nunca más de 20px
 )
 
 # 2) Configuración general de Deck con tooltip
