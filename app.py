@@ -36,10 +36,10 @@ layer = pdk.Layer(
 # 2) Configuración general de Deck con tooltip
 tooltip = {
     "html": (
-        "<b>Calle:</b> {CALLE} <br/>"
-        "<b>Núm:</b> {NUMERO} <br/>"
-        "<b>Tel:</b> {TELEFONO} <br/>"
-        "<b>Horario:</b> {HORARIO}"
+        "<b>Calle:</b> {VIALIDAD} <br/>"
+        "<b>Núm:</b> {NUMERO EXTERIOR} <br/>"
+        "<b>Tel:</b> {TELEFONO 1 DEL ESTABLECIMIENTO} <br/>"
+        "<b>Horario:</b> {CODIGO POSTAL}"
     ),
     "style": {
         "backgroundColor": "steelblue",
