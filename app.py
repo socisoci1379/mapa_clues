@@ -44,7 +44,7 @@ tooltip = {
         "<b>Calle:</b> {VIALIDAD} <br/>"
         "<b>Núm:</b> {NUMERO EXTERIOR} <br/>"
         "<b>Tel:</b> {TELEFONO 1 DEL ESTABLECIMIENTO} <br/>"
-        "<b>Horario:</b> {CODIGO POSTAL}"
+        "<b>CP:</b> {CODIGO POSTAL}"
     ),
     "style": {
         "backgroundColor": "steelblue",
